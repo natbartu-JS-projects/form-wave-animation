@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,100&display=swap');
 
 * {
   box-sizing: border-box;
-  border: solid #5B6DCD 1px;
+  /* border: solid #5B6DCD 1px; */
 }
 
 body {
-  background-color: #f6f7fb;
+  background-color: rgba(199, 193, 193, 0.93);
+  color: #fff;
   font-family: 'Roboto', 'san-serif';
   display: flex;
   flex-direction: column;
@@ -15,4 +16,20 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.container {
+   background-color: rgba(0, 0, 0, 0.4);
+   padding: 20px 40px;
+   border-radius: 5px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(215, 206, 128);
 }
